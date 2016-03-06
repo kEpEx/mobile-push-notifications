@@ -1,0 +1,19 @@
+{
+    "name": "kepex/mobile-push-notifications",
+    "description": "Basic library to send android and iOS push notifications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alfredo Aguirre",
+            "email": "alfrednx@gmail.com"
+        }
+     ],
+    "require": {
+        "php": ">=5.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "MobilePushNotifications\\": "src/"
+        }
+    }
+}
